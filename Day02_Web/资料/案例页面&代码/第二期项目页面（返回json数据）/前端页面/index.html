@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户管理</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>用户管理</h1>
+
+        <div class="toolbar">
+            <div class="search-wrapper">
+                <input type="text" id="username-search" placeholder="按用户名搜索">
+                <input type="text" id="phone-search" placeholder="按手机号搜索">
+                <select id="status-search">
+                    <option value="">所有状态</option>
+                    <option value="1">正常</option>
+                    <option value="0">禁用</option>
+                </select>
+                <button id="search-btn">搜索</button>
+            </div>
+            <button id="add-user-btn">添加用户</button>
+        </div>
+
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>用户名</th>
+                    <th>手机号</th>
+                    <th>头像</th>
+                    <th>状态</th>
+                    <th>角色ID</th>
+                    <th>创建时间</th>
+                    <th>更新时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="user-list">
+                <!-- 用户数据将通过API动态加载 -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 添加/编辑用户模态框 -->
+    <div id="user-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">添加用户</h2>
+            <form id="user-form">
+                <input type="hidden" id="user-id">
+                <div class="form-group">
+                    <label for="username">用户名</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">手机号</label>
+                    <input type="text" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="avatar">头像URL</label>
+                    <input type="text" id="avatar">
+                </div>
+                <div class="form-group">
+                    <label for="status">状态</label>
+                    <select id="status">
+                        <option value="1">正常</option>
+                        <option value="0">禁用</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="roleId">角色ID</label>
+                    <input type="number" id="roleId" required>
+                </div>
+                <button type of="submit" id="save-user-btn">保存</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>UserService方法访问统计</title>
+    <style>
+        table {width: 80%; margin: 20px auto; border-collapse: collapse;}
+        th, td {border: 1px solid #ccc; padding: 10px; text-align: center;}
+        th {background-color: #f5f5f5;}
+        .title {text-align: center; margin-top: 20px; font-size: 20px; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <div class="title">UserService方法访问统计</div>
+    <table>
+        <thead>
+            <tr>
+                <th>方法名</th>
+                <th>访问次数</th>
+                <th>总耗时(毫秒)</th>
+                <th>平均耗时(毫秒)</th>
+                <th>最后更新时间</th>
+            </tr>
+        </thead>
+        <tbody id="statTable">
+            <!-- 数据由JS动态填充 -->
+        </tbody>
+    </table>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        // 页面加载后查询统计数据
+        $(function() {
+            $.get("/stat/all-list", function(res) {
+                if (res.code === 200) {
+                    let html = "";
+                    res.data.forEach(item => {
+                        html += `<tr>
+                            <td>${item.methodName}</td>
+                            <td>${item.visitCount}</td>
+                            <td>${item.totalTime}</td>
+                            <td>${item.avgTime}</td>
+                            <td>${formatTime(item.updateTime)}</td>
+                        </tr>`;
+                    });
+                    $("#statTable").html(html);
+                } else {
+                    $("#statTable").html(`<tr><td colspan="5">${res.message}</td></tr>`);
+                }
+            });
+        });
+
+        // 时间格式化
+        function formatTime(timeStr) {
+            if (!timeStr) return "";
+            let date = new Date(timeStr);
+            return date.toLocaleString();
+        }
+    </script>
+</body>
+</html>

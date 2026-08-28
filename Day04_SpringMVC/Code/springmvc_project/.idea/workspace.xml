@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f488fd4-dc46-47a9-9bac-91b3751232a1" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Day02_Web/Code/springboot_helloworld/src/main/java/com/atguigu/springboot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day03_SpringMVC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/controller/SysUserConteoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day03_SpringMVC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/entities/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day03_SpringMVC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/util/SysUserDataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springmvc/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springmvc/entities/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springmvc/entities/SysUserLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springmvc/util/SysUserDataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/entity/SysUserLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/java/com/atguigu/springmvc/utils/SysUserDataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/resources/static/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/resources/static/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/resources/static/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/resources/static/stat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Day05_SpringIOC/Code/springmvc_project/src/main/resources/static/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\code\maven\repository" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="E:\code\maven\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HgZjJDrmDRvmx255n9bXkYSHaN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.SpringmvcProjectApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/code/study-java-framework/Day04_SpringMVC/Code/springmvc_project",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringmvcProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc_project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springmvc.SpringmvcProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4f488fd4-dc46-47a9-9bac-91b3751232a1" name="更改" comment="" />
+      <created>1786000292500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786000292500</updated>
+      <workItem from="1786291809025" duration="3614000" />
+      <workItem from="1786463169591" duration="96000" />
+      <workItem from="1786465245708" duration="112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

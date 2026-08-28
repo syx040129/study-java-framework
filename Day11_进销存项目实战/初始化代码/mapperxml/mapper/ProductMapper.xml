@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.liteims.mapper.ProductMapper">
+
+    <select id="selectProductList" resultType="com.atguigu.liteims.vo.ProductVO">
+        SELECT 
+            p.id,
+            p.category_id,
+            c.name AS category_name,
+            p.name,
+            p.price,
+            p.stock,
+            p.status,
+            p.create_time
+        FROM product p
+        LEFT JOIN category c ON p.category_id = c.id
+        WHERE p.is_deleted = 0
+        <if test="name != null and name != ''">
+            AND p.name LIKE CONCAT('%', #{name}, '%')
+        </if>
+        <if test="categoryId != null">
+            AND p.category_id = #{categoryId}
+        </if>
+        ORDER BY p.create_time DESC
+    </select>
+
+</mapper>
